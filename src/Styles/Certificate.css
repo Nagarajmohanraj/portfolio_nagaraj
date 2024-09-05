@@ -1,0 +1,23 @@
+.carousel{
+     width: 90%;
+     height: 450px;  
+     text-align: center;
+     
+}
+
+img{
+    width: 60%;
+    height: 400px;
+}
+
+@media (max-width:768px) {
+    
+    .carousel{
+      height: 200px;
+    }
+
+    img{
+       width: 70%; 
+       height: 150px;
+    }
+}

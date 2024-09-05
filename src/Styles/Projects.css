@@ -1,0 +1,65 @@
+.projects {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 2rem auto;
+  
+  }
+  
+  .projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: black;
+  }
+  
+  .project {
+    background-size: cover;
+    background-image: url(../Assets/Untitled\ design\ \(2\).png);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem ;
+    width: 90%;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .project:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color:black;
+  }
+  
+  .project p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .project a{
+    text-decoration: none;
+
+  }
+  
+  @media (max-width: 768px) {
+
+    .projects{
+      width: 300px;
+    }
+    .project {
+      background-image: url(../Assets/Untitled\ design\ \(1\).png);
+      background-size: cover;
+      margin-left: -1rem;
+
+    }
+   
+  }
+   

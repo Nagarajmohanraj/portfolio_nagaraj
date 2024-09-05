@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background:linear-gradient(to right, #5a1fef,#f756d4); 
+  
+}
+section{
+  scroll-margin-top:100px;
+}
+
+*, ::after, ::before {
+  box-sizing: content-box;
+}
+h2{
+  font-weight: bold;
+  color: black;
+}

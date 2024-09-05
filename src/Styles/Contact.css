@@ -1,0 +1,129 @@
+.contact{
+  justify-content: center;
+  justify-items: center;
+  padding-bottom: 2rem;
+}
+.main-contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8e4e4;
+  padding: 4rem;
+  max-width: 900px;
+  border-radius: 20px;
+  margin-left: 10rem;
+
+}
+.contact h2{
+  text-align: center;
+  padding: 20px;
+
+}
+
+.contact1{
+  width: 25%;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+
+}
+
+.contact2{
+  width: 50%;
+  margin-left: 4rem;
+}
+
+
+.contact ul {
+  list-style: none;
+  
+}
+
+.contact ul li {
+  margin: 10px 0;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.contact a:hover {
+  text-decoration:underline;
+}
+
+
+
+
+.contact form {
+    align-items: center;
+}
+
+.contact2 form div {
+  margin-bottom: 15px;
+  
+}
+
+.contact2 form label {
+  display: block;
+  margin-bottom: 5px;
+  padding-top: 1rem;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border: none;
+}
+
+.contact form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.contact form button:disabled {
+  background-color: #ccc;
+}
+
+.contact form p {
+  margin-top: 15px;
+  color: green;
+}
+@media (max-width: 768px) {
+
+  .contact {
+    max-width: 400px;
+    padding-bottom: 2rem;
+  }
+
+.main-contact {
+    margin-left: 1rem;
+    font-size: 15px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 3rem;
+  }
+.contact form button {
+  font-size:9px;
+}
+.contact1{
+  font-size: 1rem;
+  width: 100%;
+  margin-left: -10rem;
+}
+.contact2{
+  width: 100%;
+}
+
+}
+ 

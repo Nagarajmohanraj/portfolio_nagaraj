@@ -1,0 +1,88 @@
+.bg{
+     height: 550px;
+     background-size: cover;
+     background-image: url(../Assets/img10/7.jpg);
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 7rem;
+    margin-right: 0px;
+
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: #ffffffff;
+    border-radius: 50%;
+    background-image: url(../Assets/fotor-ai-202408102258.jpg);
+    background-size: cover;
+}
+.box1{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    width: 50%;
+    color: #fff;
+}
+span{
+    color: rgb(11, 239, 255);
+}
+
+  
+  button {
+    background-color: black;
+    background:linear-gradient(to right,#f756d4); 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #202020;
+
+  }
+
+ 
+
+
+@media (max-width: 768px) {
+  .row {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 3rem;
+  }
+
+  .box1 {
+      width: 90%;
+      font-size: 1.5rem;
+      text-align: center;
+      
+  }
+
+  .box2 {
+      height: 200px;
+      width: 200px;
+      padding: 2rem;
+      margin-top: 5rem;
+  }
+
+  .bg {
+      height: 650px;
+      background-position: center;
+      background-size: cover;
+  }
+  
+  button {
+      padding: 8px 16px;
+      font-size: 14px;
+  }
+  h4{
+    padding: 3rem;
+  }
+}
